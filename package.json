@@ -1,0 +1,36 @@
+{
+  "name": "namespace-proxy",
+  "version": "0.0.0",
+  "description": "A simple ES2015 Proxy-based namespace factory",
+  "main": "es2015/createNamespaceProxy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jurca/namespace-proxy.git"
+  },
+  "keywords": [
+    "proxy",
+    "namespace",
+    "es6",
+    "es2015"
+  ],
+  "author": "Martin Jurča <mjurca@centrum.cz>",
+  "contributors": [
+    {
+      "name": "Matej",
+      "email": "general@console.army"
+    }
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jurca/namespace-proxy/issues"
+  },
+  "homepage": "https://github.com/jurca/namespace-proxy#readme",
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  }
+}
