@@ -1,5 +1,9 @@
 # namespace-proxy
 
+[![Build Status](https://travis-ci.org/jurca/namespace-proxy.svg?branch=master)](https://travis-ci.org/jurca/namespace-proxy)
+[![npm](http://img.shields.io/npm/v/namespace-proxy.svg)](https://www.npmjs.com/package/namespace-proxy)
+[![License](https://img.shields.io/npm/l/namespace-proxy.svg)](LICENSE)
+
 The namespace-proxy is a utility for creating namespaces in objects (similar to
 those provided by
 [Mozilla's SDK](https://github.com/mozilla/addon-sdk/blob/master/lib/sdk/core/namespace.js)).
