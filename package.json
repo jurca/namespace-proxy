@@ -4,7 +4,7 @@
   "description": "A simple ES2015 Proxy-based namespace factory",
   "main": "es2015/createNamespaceProxy.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/tape/bin/tape -r babel-register test/*Spec.js"
   },
   "repository": {
     "type": "git",
@@ -32,5 +32,10 @@
     "transform": [
       "babelify"
     ]
+  },
+  "devDependencies": {
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.8.0",
+    "babel-register": "^6.8.0",
+    "tape": "^4.5.1"
   }
 }
