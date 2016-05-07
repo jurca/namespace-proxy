@@ -71,7 +71,7 @@ export default class Point {
 }
 ```
 
-# Browser and Node.js support
+## Browser and Node.js support
 
 Since the `namespace-proxy` requires the `Proxy` API which cannot be
 polyfilled, only Node.js 6+ and modern browsers are supported. You can check
