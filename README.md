@@ -89,3 +89,23 @@ At the moment of writing this, the following browsers were supported:
 * Android System WebView / Android Browser 49+
 
 It appears the Safari and iOS browsers will be supported from the version 10.
+
+## The current state of this project
+
+There are no current plans for additional features (unless a good case for
+adding them is made), but the project accepts bug fixes if new bugs are
+discovered.
+
+## Contributing
+
+Time is precious, so, if you would like to contribute (bug fixing, test writing
+or feature addition), follow these steps:
+
+- fork
+- implement (follow the code style)
+- pull request
+- wait for approval/rejection of the pull request
+
+Filing a bug issue *might* get me to fix the bug, but filing a feature request
+will not as I don't have the time to work on this project full-time. You may
+still propose new features through pull requests. Thank you for understanding.
