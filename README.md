@@ -20,6 +20,14 @@ Furthermore, the `namespace-proxy` stores all properties via ES2015
 [`symbol`s](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol),
 which are unique to each created namespace and thus prevent name collisions.
 
+## Setup
+
+You can install the `namespace-proxy` utility using npm:
+
+```
+npm install --save namespace-proxy
+```
+
 ## Usage example
 
 The `createNamespaceProxy` function creates a function that accepts an object
