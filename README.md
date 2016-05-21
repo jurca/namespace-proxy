@@ -41,7 +41,7 @@ symbols by accessing them, and can be used for static properties.
 import createNamespaceProxy from "namespace-proxy"
 
 const PRIVATE = createNamespaceProxy()
-const PROTECTED = createNamespaceProxy()
+const PROTECTED = createNamespaceProxy(true) // properties are enumerable
 
 export default class Point {
   constructor(x, y) {
