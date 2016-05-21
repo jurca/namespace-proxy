@@ -68,6 +68,10 @@ function createProxy(instance, symbols, enumerable) {
     },
 
     get: (target, propertyName) => {
+      if (!symbols.has(propertyName)) {
+        return undefined // the property has not been defined (set) yet
+      }
+
       let { symbol } = getSymbol(symbols, propertyName)
       return instance[symbol]
     }
